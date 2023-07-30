@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+header{
+    height:120px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+li{
+    font-size: 15px;
+    padding: 15px;
+    float: left;
+}
+ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #a0a940;
+}
+.active{
+    color: #a0a940;
+}
+.header_mid{
+    text-align: center;
+    padding-top: 20px;
+}
+.header_left{
+    text-align: right;
+}
+.header_right{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    color: #a0a940;
+}
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("img/facilities_bg.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height:300px;
+}
+.h1_1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+}
+#facilities span{
+    color:  #a0a940;
+}
+.h1_2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.p1{
+    padding-top: 15px;
+    color: grey;
+    line-height: 30px;
+}
+#facilities{
+    padding-bottom: 50px;
+}
+.facilities1{
+    padding-top: 50px;
+}
+.facilities2{
+    padding-top: 100px;
+}
+
+.fac1{
+    margin-left: 150px;
+}
+.fac3{
+    margin-right: 80px;
+}
+.fac4{
+    margin-left: 150px;
+}
+.fac6{
+    margin-right: 80px;
+}
+.gallery2{
+    margin-top: -10px;
+}
+.gal1 img{
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) );
+}
+.h1_3{
+    font-size: 40px;
+    text-align: center;
+}
+#rooms{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.room{
+    padding-top: 50px;
+}
+.r1{
+    margin-left: 100px;
+}
+.r3{
+    margin-right: 100px;
+}
+.h1_4{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.p2{ 
+    padding-top: 15px;
+    color: grey;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.read{
+    padding-top: 30px;
+}
+.read a{
+    color: #a0a940;
+    text-decoration: none;
+    padding-left: 30px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   font-size: 12px;
+  letter-spacing: 4px;
+  
+}
+.read a:hover{
+    color: #79802f;
+}
+.button1{
+    border: none;
+    padding: 18px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 30px;
+ 
+    display: block;
+    background-color:#a0a940;
+    font-weight: bold;
+}
+.button1:hover{
+    background-color: rgb(71, 71, 4);
+   
+}
+.button{
+    padding-bottom: 100px;
+}
+footer{
+    background-image: url("img/footer_img.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height: auto;
+}
+.white_logo img{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.h2_1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 80px;
+    line-height: 40px;
+}
+.p3{
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.p4{
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+.footer{
+    padding-bottom: 100px;
+}
+.Copyright{
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="main" style="display: flex;">
+        <div class="header_left" style="width:33.33% ;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a  class="active" href="facilities.html">Facilities</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header_mid" style="width:33.33% ;">
+            <img src="../Home Stay/img/logo.png" alt="">
+        </div>
+        <div class="header_right" style="width:33.33% ;">
+            <p>Call us at: 929-242-6879</p>
+        </div>
+    </div>
+</header>
+<div class="image">
+    <h1 class="h1_1">Facilities</h1>
+</div>
+
+<section id="facilities">
+<div class="facilities1" style="display: flex;">
+    <div class="fac1" style="width: 33.33%;">
+        <span class="material-symbols-outlined">ac_unit</span>
+        <h1 class="h1_2">Central Heating</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+    <div class="fac2" style="width: 33.33%;">
+        <span class="material-symbols-outlined">park</span>
+        <h1 class="h1_2">Garden Terrace</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+    <div class="fac3" style="width: 33.33%;">
+        <span class="material-symbols-outlined">desktop_windows</span>
+        <h1 class="h1_2">TV &Telephone</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+</div>
+<div class="facilities2" style="display: flex;">
+    <div class="fac4" style="width: 33.33%;">
+        <span class="material-symbols-outlined">wifi</span>
+        <h1 class="h1_2">Free Wi-Fi</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+    <div class="fac5" style="width: 33.33%;">
+        <span class="material-symbols-outlined">  computer</span>
+        <h1 class="h1_2">Guest Computer</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+    <div class="fac6" style="width: 33.33%;">
+        <span class="material-symbols-outlined">local_parking</span>
+        <h1 class="h1_2">Parking Space</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis.</p>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="gallery1" style="display: flex;">
+        <div class="gal1" style="width: 25%;">
+            <img src="../Home Stay/img/gallery-01.jpg" width="100%">
+        </div> 
+        <div class="gal1" style="width: 25%;">
+            <img src="../Home Stay/img/gallery-02.jpg" width="100%">
+        </div>
+        <div class="gal1" style="width: 50%;">
+            <img src="../Home Stay/img/gallery-03.jpg" width="100%">
+        </div>
+    </div>
+
+    <div class="gallery2" style="display: flex;">
+        <div class="gal1" style="width: 50%;">
+            <img src="../Home Stay/img/gallery-06.jpg" width="100%">
+        </div> 
+        <div class="gal1" style="width: 25%;">
+            <img src="../Home Stay/img/gallery-04.jpg" width="100%">
+        </div>
+        <div class="gal1" style="width: 25%;">
+            <img src="../Home Stay/img/gallery-05.jpg" width="100%">
+        </div>
+    </div>
+</section>
+
+<section id="rooms">
+    <h1 class="h1_3">Our Rooms</h1>
+    <div class="room" style="display: flex;">
+        <div class="r1" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-01.jpg">
+            <h1 class="h1_4">Autumn Drive</h1>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+        <div class="r2" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-02.jpg">
+            <h1 class="h1_4">Walnut Tree Side</h1>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+        <div class="r3" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-05.jpg">
+            <h1 class="h1_4">Moderna Cardenas</h1>
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+    </div>
+</section>
+<div class="button">
+<button class="button1">VIEW ALL ROOMS</button>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.060392126941!2d73.76079791491583!3d20.00597988656119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb994f54f533%3A0xef938d11bd1d4c9e!2sCollege%20Rd%2C%20Nashik%2C%20Maharashtra%20422005!5e0!3m2!1sen!2sin!4v1658065701541!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<footer>
+    <div class="white_logo">
+        <img src="../Home Stay/img/white_logo.png">
+    </div>
+    <div class="footer" style="display: flex;">
+        <div class="footer_left" style="width: 50%;">
+            <h2 class="h2_1">Shirley’s’ Town House is an authentic <br> turn-of-the-century restored <br> brownstone town house- built in 1870 <br> located on historic Beacon Street.</h2>
+        </div>
+        <div class="footer_right" style="width: 50%;">
+            <p class="p3">2855 Nelsonville Rd, Boston, Massachusetts,<br>(MA), 40107</p>
+            <p class="p4">929-242-6879</p>
+        </div>
+    </div>
+    <hr size="0.1">
+    <p class="Copyright">Copyright © 2022 Home Stay | Powered by Home Stay</p>
+</footer>
+</body>
+</html>
+
+
+
+    
+    

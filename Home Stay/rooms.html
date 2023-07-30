@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rooms</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+header{
+    height:120px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+li{
+    font-size: 15px;
+    padding: 15px;
+    float: left;
+}
+ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #a0a940;
+}
+.active{
+    color: #a0a940;
+}
+.header_mid{
+    text-align: center;
+    padding-top: 20px;
+}
+.header_left{
+    text-align: right;
+}
+.header_right{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    color: #a0a940;
+}
+.image{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("img/room_bg.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height:300px;
+}
+.h1_1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+}
+.h1_2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.include{
+    padding-top: 50px;
+}
+.i1{
+    margin-left: 350px;
+}
+.i2{
+    padding-right: 30px;
+}
+.i4{
+    margin-right: 350px;
+}
+.r1{
+    margin-left: 100px;
+}
+.r3{
+    margin-right: 100px;
+}
+.r4{
+    margin-left: 100px;
+}
+.r5{
+    margin-right: 485px;
+}
+.room1{
+    padding-top: 80px;
+}
+.room2{
+    padding-top: 50px;
+}
+.p3{
+    margin-top: -25px;
+    padding-left: 30px;
+    color: grey;
+}
+span{
+    color: #a0a940;
+}
+.h1_3{
+    padding-top: 20px;
+   padding-left: 30px;
+    font-size: 30px;
+}
+.p4{
+    padding-top: 15px;
+    padding-left: 30px;
+    line-height: 30px;
+    color: grey;
+}
+.read{
+    padding-top: 30px;
+}
+.read a{
+    color: #a0a940;
+    text-decoration: none;
+    padding-left: 30px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   font-size: 12px;
+  
+}
+.read a:hover{
+    color: #79802f;
+}
+.visitor span{
+    color: #a0a940;
+    
+}
+.visitor{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/bg2.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height:900px;
+}
+.star{
+    padding-top: 150px;
+   text-align: center;
+   
+}
+.h4_1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.oliver img{
+   display: block;
+   margin: 0px auto;
+    border-radius: 50%;
+   
+}
+.h1_4{
+text-align: center;
+color: white;
+font-size: 40px;
+padding-top: 30px;
+}
+.p5{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.h5_1{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.button1{
+    border: none;
+    padding: 18px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 30px;
+ 
+    display: block;
+    background-color:#a0a940;
+    font-weight: bold;
+}
+.button1:hover{
+    background-color: rgb(71, 71, 4);
+   
+}
+#rooms{
+    padding-bottom: 50px;
+}
+
+footer{
+    background-image: url("img/footer_img.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height: auto;
+}
+.white_logo img{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.h2_1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 80px;
+    line-height: 40px;
+}
+.p6{
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.p7{
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+.footer{
+    padding-bottom: 100px;
+}
+.Copyright{
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+<header>
+        <div class="main" style="display: flex;">
+            <div class="header_left" style="width:33.33% ;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  class="active" href="rooms.html">Rooms</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_mid" style="width:33.33% ;">
+                <img src="../Home Stay/img/logo.png" alt="">
+            </div>
+            <div class="header_right" style="width:33.33% ;">
+                <p>Call us at: 929-242-6879</p>
+            </div>
+        </div>
+</header>
+        <div class="image">
+            <h1 class="h1_1">Rooms</h1>
+        </div>
+<section id="rooms">
+    <h1 class="h1_2">Each of our rooms include:</h1>
+    <div class="include" style="display: flex;">
+        <div class="i1" style="width: 25%;">
+            <span class="material-symbols-outlined">wifi</span>
+            <p class="p3">Wireless</p>
+        </div>
+        <div class="i2" style="width: 25%;">
+            <span class="material-symbols-outlined">electrical_services</span>
+            <p class="p3">Charging Points</p>
+        </div>
+        <div class="i3" style="width: 25%;">
+            <span class="material-symbols-outlined">computer</span>
+            <p class="p3">Work Tables</p>
+        </div>
+        <div class="i4" style="width: 25%;">
+            <span class="material-symbols-outlined">airwave</span>
+            <p class="p3">Air Conditioner</p>
+        </div>
+
+    </div>
+
+    <div class="room1" style="display: flex;">
+        <div class="r1" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-01.jpg">
+            <h1 class="h1_3">Autumn Drive</h1>
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+        <div class="r2" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-02.jpg">
+            <h1 class="h1_3">Walnut Tree Side</h1>
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+        <div class="r3" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-05.jpg">
+            <h1 class="h1_3">Moderna Cardenas</h1>
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+    </div>
+
+    <div class="room2" style="display: flex;">
+        <div class="r4" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-04.jpg">
+            <h1 class="h1_3">Wordsworth</h1>
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+        <div class="r5" style="width: 33.33%;">
+            <img src="../Home Stay/img/rooms-03.jpg">
+            <h1 class="h1_3">Heights Copse</h1>
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore.</p>
+            <p class="read"><a href="index.html">READ MORE</a></p>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="visitor">
+        <div class="star">
+        <span class="material-symbols-rounded">star</span>
+        <span class="material-symbols-rounded">star</span>
+        <span class="material-symbols-rounded">star</span>
+        <span class="material-symbols-rounded">star</span>
+        <span class="material-symbols-rounded">star_half</span>
+        </div>
+        <h1 class="h1_4">What our visitors say</h1>
+        <h4 class="h4_1">Our average visitor rating is 4.8 / 5</h4>
+        <div class="oliver">
+            <img src="../Home Stay/img/testimonial-01.jpg" ><br>
+            <img src="../Home Stay/img/format_quote_white_48dp.svg">
+            <p class="p5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h5 class="h5_1">Lisa Oliver</h1>
+            <button class="button1">MORE REVIEWS</button>
+        </div>
+    </div>
+</section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.060392126941!2d73.76079791491583!3d20.00597988656119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb994f54f533%3A0xef938d11bd1d4c9e!2sCollege%20Rd%2C%20Nashik%2C%20Maharashtra%20422005!5e0!3m2!1sen!2sin!4v1658065701541!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer>
+    <div class="white_logo">
+        <img src="../Home Stay/img/white_logo.png" alt="">
+    </div>
+    <div class="footer" style="display: flex;">
+        <div class="footer_left" style="width: 50%;">
+            <h2 class="h2_1">Shirley’s’ Town House is an authentic <br> turn-of-the-century restored <br> brownstone town house- built in 1870 <br> located on historic Beacon Street.</h2>
+        </div>
+        <div class="footer_right" style="width: 50%;">
+            <p class="p6">2855 Nelsonville Rd, Boston, Massachusetts,<br>(MA), 40107</p>
+            <p class="p7">929-242-6879</p>
+        </div>
+    </div>
+    <hr size="0.1">
+    <p class="Copyright">Copyright © 2022 Home Stay | Powered by Home Stay</p>
+</footer>
+
+
+</body>
+</html>

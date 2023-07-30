@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        height:120px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    li{
+        font-size: 15px;
+        padding: 15px;
+        float: left;
+    }
+    ul li a{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #a0a940;
+    }
+    .active{
+        color: #a0a940;
+    }
+    .header_mid{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header_left{
+        text-align: right;
+    }
+    .header_right{
+        text-align: right;
+        padding-right: 50px;
+        padding-top: 50px;
+        color: #a0a940;
+    }
+    .image{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("img/contact_bg.jpg");
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-size: cover;
+        height:300px;
+    }
+    .h1_1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 120px;
+    }
+.h5_1{
+    color: #a0a940;
+    padding-top: 40px;
+    font-size: 15px;
+}
+.left{
+    padding-top: 120px;
+    padding-left:100px;
+}
+.h1_2{
+    padding-top: 10px;
+}
+
+form{
+    padding-top: 130px;
+    padding-left: 50px;
+}
+form input{
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(169, 171, 174);
+}
+
+form textarea{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(169, 171, 174);
+
+}
+button{
+    padding: 15px;
+    width: 120px;
+    background-color: #a0a940;
+    border: none;
+    
+    color: white;
+}
+button:hover{
+  background-color: rgb(71, 71, 4);
+}
+
+#sub{
+    font-size: 15px;
+    font-weight: bold;
+}
+#x{
+    font-size: 15px;
+   letter-spacing: 1px;
+    font-weight: bold;
+   color: grey;
+}
+iframe{
+    padding-top: 100px;
+}
+footer{
+    background-image: url("img/footer_img.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height: auto;
+}
+.white_logo img{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.h2_1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 80px;
+    line-height: 40px;
+}
+.p1{
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.p2{
+    color: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+.footer{
+    padding-bottom: 100px;
+}
+.Copyright{
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="main" style="display: flex;">
+            <div class="header_left" style="width:33.33% ;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_mid" style="width:33.33% ;">
+                <img src="../Home Stay/img/logo.png" alt="">
+            </div>
+            <div class="header_right" style="width:33.33% ;">
+                <p>Call us at: 929-242-6879</p>
+            </div>
+        </div>
+    </header>
+    <div class="image">
+        <h1 class="h1_1">Contact</h1>
+    </div>  
+
+<section>
+    <div class="main_1" style="display: flex;">
+        <div class="left" style="width: 40%;">
+            <h5 class="h5_1">Reception Office</h5>
+            <h1 class="h1_2">2855 Nelsonville Rd, Boston, <br> Massachusetts (MA), 40107</h1>
+            <h5 class="h5_1">Reception Hours</h5>
+            <h1 class="h1_2">07:30 AM – 11:00 PM</h1>
+            <h5 class="h5_1">Contact</h5>
+            <h1 class="h1_2">929-242-6879 <br>contact@info.com</h1>
+        </div>
+        <div class="right" style="width: 60%;">
+            <form>
+                <label  id="x" for="name">Name</label><br>
+                <input  type="text" name="name" size="33" placeholder="First">  <input type="text" name="name" size="33" placeholder="Last"><br><br><br>
+                <label id="x" for="email">Email</label><br>
+                <input type="mail" id="email" name="email" size="75"><br><br><br>
+
+                <label  id="x" for="textar">Message</label><br>
+                <textarea name="message" id="" cols="81" rows="8"></textarea><br><br>
+                <button id="sub">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.060392126941!2d73.76079791491583!3d20.00597988656119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb994f54f533%3A0xef938d11bd1d4c9e!2sCollege%20Rd%2C%20Nashik%2C%20Maharashtra%20422005!5e0!3m2!1sen!2sin!4v1658065701541!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer>
+    <div class="white_logo">
+        <img src="../Home Stay/img/white_logo.png">
+    </div>
+    <div class="footer" style="display: flex;">
+        <div class="footer_left" style="width: 50%;">
+            <h2 class="h2_1">Shirley’s’ Town House is an authentic <br> turn-of-the-century restored <br> brownstone town house- built in 1870 <br> located on historic Beacon Street.</h2>
+        </div>
+        <div class="footer_right" style="width: 50%;">
+            <p class="p1">2855 Nelsonville Rd, Boston, Massachusetts,<br>(MA), 40107</p>
+            <p class="p2">929-242-6879</p>
+        </div>
+    </div>
+    <hr size="0.1">
+    <p class="Copyright">Copyright © 2022 Home Stay | Powered by Home Stay</p>
+</footer>
+
+</body>
+</html>
